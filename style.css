@@ -1,17 +1,118 @@
 
-nav{
-  display:inline;
-
-  
+.container {
+  display: flex;
+  flex-direction: row;
+ 
 }
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  width: 100%;
+  
+
+}
+.navright{
+  float: right;
+
+}
+.navleft  {
+  float: left;
+ 
+
+}  
+.navleft a{
+  font-size: 30px;
+  padding-bottom: 30%;
+
+}
+
 header{
-  background-color: rgb(28, 28, 37);
+  background-color: rgb(8, 8, 62);
+}
+.principal {
+  box-shadow: 0 4px 8px 0 rgba(76, 72, 72, 0.2);
+  border:
+   1px solid gray;
+width: 50%;
+padding: 5px 10px;
+
 }
 a {
-  margin-right: 30px;
-  margin-left: 30px;
-  font-size: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 20px;
   color:aliceblue ;
   text-decoration: none;
 }
-.subscribe
+.subscribe {
+ 
+  background-color: brown;
+  font-size: 30px;
+  border-radius:10px;
+ 
+}
+
+article a {
+  color:blue;
+ margin-top: 50px;
+}
+article{
+  margin-top: 30px;
+}
+
+
+.one {
+  width: 70%;
+  margin-left: 5%;
+  margin-right: 3%;
+  float: left;
+
+}
+.two{
+ 
+ 
+  text-align: center;
+  padding-top: 20px;
+  width: 50%;
+  float: right;
+  font-size: 20px;
+
+}
+
+.two{
+  box-shadow: 0 4px 8px 0 rgba(76, 72, 72, 0.2);
+  border:
+   1px solid gray;
+}
+.a10 {
+  font-size: medium;
+}
+aside{
+
+  mar
+}
+.p1 {font-size: 20px;
+
+}
+.titre{
+  margin-left: 5%;
+
+}
+.i{
+  color: blue;
+  font-size: 20px;
+}
+.accordion {
+  background-color: rgb(20, 5, 65);
+  color: aliceblue;
+  
+}
+#search-button {
+  background-color: rgb(8, 8, 69);
+  color: aliceblue;
+}
+p a{
+ color: blue;
+}
